@@ -1,0 +1,64 @@
+.videos-section {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.videos-heading {
+    margin-bottom: 20px;
+    color: var(--background-color);
+}
+
+.videos-exercise-name {
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+.videos-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.exercise-video {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    min-width: 250px;
+    min-height: 370px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.exercise-video:hover {
+    transform: scale(1.05);
+}
+
+.video-thumbnail {
+    width: 100%;
+    min-height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--background-color);
+}
+
+.video-channel {
+    margin: 0;
+    font-size: 14px;
+    color: var(--primary-color);
+}

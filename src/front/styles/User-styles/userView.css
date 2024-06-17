@@ -1,0 +1,44 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user-data,
+.user-calendar {
+    flex: 1;
+}
+
+.user-routine,
+.search-exercise,
+.exercises {
+    width: 100%;
+}
+
+.exercises {
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .user-container {
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 90px;
+        height: auto;
+    }
+
+    .user-header {
+        flex-direction: column;
+    }
+}

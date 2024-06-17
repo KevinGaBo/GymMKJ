@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+
+
+:root {
+  --primary-color: #8BC34A;
+  --secondary-color: #000501;
+  --background-color: #0B3D91;
+  --white-text: #F5F5F5;
+  --gradient-background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+  --hover-color: #09f;
+  --button-background-color: #8BC34A;
+  --hover-button-background-color: #abe26b;
+  --border-button-color: #0B3D91;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.green-text {
+  color: var(--primary-color);
+}
+
+.blue-text {
+  color: var(--hover-color);
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white-text);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--hover-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color);
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--hover-color) var(--white-text);
+}

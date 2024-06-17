@@ -1,0 +1,7 @@
+.trainer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+
+  width: 100%;
+}
